@@ -11,7 +11,7 @@ Etch-a-Sketch is a drawing toy where user can draw by hovering over.
 
 Thanks to <a href="https://github.com/mooniiDev">mooniiDev</a>for ui/ux idea
 
+<img src="/images/favicon.ico">
 <h5>Screenshot</h5>
 <br>
 <img src="/images/ss.png">
-
