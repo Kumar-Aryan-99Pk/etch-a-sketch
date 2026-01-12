@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=VT323&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+
+</head>
+
+<body>
+    <div class="title">Etch A Sketch</div>
+
+    <div class="container">
+        <div class="firstcol">
+            <button id="clear">CLEAR</button>
+            <button id="eraser">ERASER</button>
+            <button id="pen">PEN</button>
+        </div>
+
+        <div class="secondcol">
+            <div class="button-holder">
+                <label id="gridsize" for="gridsize">Grid Size</label>
+                <input type="range" id="range" min="10" max="30" step="10">
+            </div>
+            <div class="grid-holder"></div>
+        </div>
+        <div class="thirdcol">
+            <button id="warm">WARM</button>
+            <button id="cool">COOL</button>
+            <button id="darken">DARKEN</button>
+        </div>
+    </div>
+
+    <div class="footer">Copyright &copy; Kumar-Aryan-99Pk &nbsp;
+        <a href="https://github.com/Kumar-Aryan-99Pk" target="_blank" aria-label="Visit my GitHub profile">
+        <i class="fab fa-github"></i>
+        </a>
+    </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
