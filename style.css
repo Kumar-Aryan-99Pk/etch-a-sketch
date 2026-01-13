@@ -113,11 +113,11 @@ button:hover{
 }
 
 button:active{
-    background-color: rgb(57, 71, 22);
+    background-color: rgb(55, 55, 55);
 }
 
 .active{
-    box-shadow: -2px 0px 10px yellow;
+    box-shadow: -2px 0px 20px yellow;
 }
 
 .footer{
